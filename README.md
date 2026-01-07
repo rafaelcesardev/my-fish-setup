@@ -1,6 +1,6 @@
 # My Fish Shell Setup
 
-Complete Fish shell setup for **Ubuntu** and **Debian** with modern CLI tools.
+Complete Fish shell setup for **Ubuntu** with modern CLI tools.
 
 ## Included Tools
 
@@ -69,10 +69,11 @@ ssh-keygen -t ed25519 -C "your_github_email" -f ~/.ssh/id_ed25519
 Start SSH agent:
 
 ```sh
-# Start SSH agent (works in both Fish and Bash)
-ssh-agent -c | source || eval "$(ssh-agent -s)"
+# Start SSH agent (choose one)
+ssh-agent -c | source    # Fish
+eval "$(ssh-agent -s)"   # Bash/Zsh
 
-# Add key to SSH agent
+# Add key
 ssh-add ~/.ssh/id_ed25519
 ```
 
