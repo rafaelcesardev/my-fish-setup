@@ -88,6 +88,3 @@ alias dcl='docker compose logs'
 alias dcps='docker compose ps'
 alias dcb='docker compose build'
 alias dcp='docker compose pull'
-
-# opencode
-fish_add_path /root/.opencode/bin
