@@ -76,6 +76,7 @@ alias d='docker'
 alias dps='docker ps'
 alias ds='docker stop'
 alias di='docker images'
+alias dv='docker volume'
 alias dex='docker exec -it'
 
 # Docker Compose
