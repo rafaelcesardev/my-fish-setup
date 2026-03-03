@@ -107,7 +107,13 @@ uv python install --default
 
 ## Install Docker Engine
 
-Follow the official installation guide for [`Ubuntu`](https://docs.docker.com/engine/install/ubuntu/).
+```sh
+curl -fsSL https://get.docker.com | sh
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+```
+
+Log out and back in for the group change to take effect.
 
 ## Configure Fish Shell
 
