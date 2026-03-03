@@ -44,9 +44,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # uv / local bin
 set -x PATH $HOME/.local/bin $PATH
 
-# go (uncomment if needed)
-# set -gx PATH $PATH /usr/local/go/bin
-
 # ===========================================
 # Aliases - System
 # ===========================================
