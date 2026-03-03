@@ -44,9 +44,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # uv / local bin
 set -x PATH $HOME/.local/bin $PATH
 
-# go (uncomment if needed)
-# set -gx PATH $PATH /usr/local/go/bin
-
 # ===========================================
 # Aliases - System
 # ===========================================
@@ -76,6 +73,7 @@ alias d='docker'
 alias dps='docker ps'
 alias ds='docker stop'
 alias di='docker images'
+alias dv='docker volume'
 alias dex='docker exec -it'
 
 # Docker Compose
@@ -88,6 +86,3 @@ alias dcl='docker compose logs'
 alias dcps='docker compose ps'
 alias dcb='docker compose build'
 alias dcp='docker compose pull'
-
-# opencode
-fish_add_path /root/.opencode/bin

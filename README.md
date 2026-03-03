@@ -35,11 +35,6 @@ sudo apt install -y fish
 chsh -s $(which fish)
 ```
 
-```sh
-# oh-my-fish
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
-```
-
 ### Complete Installation Guide
 
 For detailed installation instructions, see [fish-setup-guide.md](docs/fish-setup-guide.md)
